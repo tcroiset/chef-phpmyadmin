@@ -12,6 +12,6 @@ default[:phpmyadmin][:cfg][:control_user]           =   'phpmyadmin'
 default[:phpmyadmin][:nginx][:port]                 =   80
 default[:phpmyadmin][:nginx][:server_name]          =   'phpmyadmin.yourhost.com'
 default[:phpmyadmin][:nginx][:docroot]              =   default[:phpmyadmin][:cfg][:path]
-default[:phpmyadmin][:nginx][:fastcgi_server]       =   'unix:/var/run/php5-fpm.sock'
+default[:phpmyadmin][:nginx][:fastcgi_server]       =   'unix:/dev/shm/php5-fpm.sock'
 
 
