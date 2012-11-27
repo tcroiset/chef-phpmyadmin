@@ -15,10 +15,10 @@ Tested on:
 
 ## Cookbooks:
 
-Mysql::Server
-Openssl
-Nginx optional
-Apache2 (https://github.com/opscode-cookbooks/apache2) optional
+* Mysql::Server
+* Openssl
+* Nginx optional
+* Apache2 (https://github.com/opscode-cookbooks/apache2) optional
 
 Attributes
 ==========
